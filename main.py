@@ -5,6 +5,10 @@ def turn_right():
 
 
 
-elif wall_in_front():
-turn_left():
 
+        
+        move()
+    elif front_is_clear():
+        move()   
+    elif wall_in_front():
+        turn_left():
