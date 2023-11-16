@@ -4,9 +4,11 @@ def turn_right():
 
 
 
+while not at_goal():
+        if right_is_clear():
+               turn_right()
 
-
-        
+       
         move()
     elif front_is_clear():
         move()   
